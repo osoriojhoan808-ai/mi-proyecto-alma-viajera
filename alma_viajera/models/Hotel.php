@@ -10,7 +10,7 @@ class Hotel {
     
     // Crear un nuevo hotel
     public function crear($datos) {
-        $sql = "INSERT INTO hoteles (nombre, direccion, ciudad, pais, telefono, email, sitio_web, 
+        $sql = "INSERT INTO hoteles (NOMBREEG, direccion, ciudad, pais, telefono, email, sitio_web, 
                 categoria, precio_promedio, latitud, longitud, descripcion) 
                 VALUES (:nombre, :direccion, :ciudad, :pais, :telefono, :email, :sitio_web, 
                 :categoria, :precio_promedio, :latitud, :longitud, :descripcion)";
